@@ -3,19 +3,19 @@ class Person {
     String address;
     final String country = "Indonesia";
 
-    Person(String paramName, String paramAddress){
-        name = paramName;
-        address = paramAddress;
+    Person(String name, String address){
+        this.name = name;
+        this.address = address;
     }
 
-    Person(String paramName){
-        this(paramName,null);
+    Person(String name){
+        this.name = name;
     }
 
     Person(){
     }
 
     void sayHello(String paramName){
-        System.out.println("Hello " + paramName + " My name is " + name );
+        System.out.println("Hello " + name + " My name is " + this.name );
     }
 }

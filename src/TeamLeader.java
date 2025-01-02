@@ -1,0 +1,2 @@
+class TeamLeader extends Manager {
+}
