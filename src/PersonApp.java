@@ -7,7 +7,8 @@ public class PersonApp {
         System.out.println(person1.country);
         person1.sayHello("Budi");
 
-        Person person2 = new Person("Tobi", "Konoha");
+        Person person2 = new Person("Tobi");
+        person2.address = "Konoha";
 
         System.out.println(person2.name);
         System.out.println(person2.address);
@@ -15,7 +16,9 @@ public class PersonApp {
         person2.sayHello("Mr. Robot");
 
         Person person3;
-        person3 = new Person("Ciro", "Bandung");
+        person3 = new Person();
+        person3.name = "Ciro";
+        person3.address = "Bandung";
 
         System.out.println(person3.name);
         System.out.println(person3.address);
