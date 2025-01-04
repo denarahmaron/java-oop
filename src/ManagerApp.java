@@ -3,7 +3,7 @@ public class ManagerApp {
         var manager = new Manager("Eko");
         manager.sayHello("Budi");
 
-        var teamLeaderMarketing = new TeamLeader("Agus");
-        teamLeaderMarketing.sayHello("Hendra");
+        var teamLeader = new TeamLeader("Agus");
+        teamLeader.sayHello("Hendra");
     }
 }
