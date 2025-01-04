@@ -1,4 +1,4 @@
-class TeamLeader extends Manager {
+class TeamLeader extends Employee {
     TeamLeader(String name){
         super(name);
     }
