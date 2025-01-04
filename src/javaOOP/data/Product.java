@@ -1,10 +1,10 @@
 package javaOOP.data;
 
-class Product {
-    String productName;
-    int price;
+public class Product {
+    public String productName;
+    public int price;
 
-    Product(String productName, int price){
+    public Product(String productName, int price){
         this.productName = productName;
         this.price = price;
     }
