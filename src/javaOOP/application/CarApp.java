@@ -7,5 +7,7 @@ public class CarApp {
         var car = new Avanza();
         car.drive();
         System.out.println(car.getTier());
+        System.out.println(car.getBrand());
+        System.out.println(car.isMaintenance());
     }
 }
