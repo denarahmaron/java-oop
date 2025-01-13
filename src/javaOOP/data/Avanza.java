@@ -6,7 +6,7 @@ public class Avanza implements Car {
     }
 
     public int getTier(){
-        return 2;
+        return 5;
     }
 
     public String getBrand() {
