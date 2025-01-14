@@ -1,5 +1,11 @@
 package javaOOP.data;
 
-public final class Facebook {
+public class Facebook {
+    final void login (String username, String password) {
+    }
+}
 
+class FakeFacebook extends Facebook{
+//    void login (String username, String password) {
+//    } // Error
 }
