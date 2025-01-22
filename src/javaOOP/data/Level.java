@@ -1,5 +1,8 @@
 package javaOOP.data;
 
+import javaOOP.annotation.Fancy;
+
+@Fancy(name = "Level")
 public enum Level {
     STANDARD("Standard Level"),
     PREMIUM("Premium Level"),
